@@ -13,5 +13,6 @@ module.exports = {
     "react/jsx-uses-vars": "error",
     "react/jsx-uses-react": "error",
     "react-refresh/only-export-components": "warn",
+    "react/prop-types": "off",
   },
 };
