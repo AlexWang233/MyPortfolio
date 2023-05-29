@@ -11,7 +11,14 @@ import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
 const Experience = () => {
-  return <div>Experience</div>;
+  return (
+    <>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>My Achievements</p>
+        <h2 className={styles.sectionHeadText}>Work Experiences</h2>
+      </motion.div>
+    </>
+  );
 };
 
-export default Experience;
+export default SectionWrapper(Experience, "work");
