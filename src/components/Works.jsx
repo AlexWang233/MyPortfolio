@@ -11,9 +11,21 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>My Achievements</p>
-        <h2 className={styles.sectionHeadText}>Work Experiences</h2>
+        <p className={styles.sectionSubText}>My Projects</p>
+        <h2 className={styles.sectionHeadText}>Projects</h2>
       </motion.div>
+      <div className="w-full flex">
+        <motion.p
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          variants={fadeIn("", "", 0.1, 1)}
+        >
+          Following projects showcase some of the work I&apos;ve done in my
+          spare time. Each project is birefly described with links to code
+          repositories and live demos in it. It reflects my ability to solve
+          complex problems, work with various technologies and manage projects
+          effectively.
+        </motion.p>
+      </div>
     </>
   );
 };
