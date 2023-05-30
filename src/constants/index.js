@@ -118,8 +118,8 @@ const experiences = [
   {
     title: "Frontend Developer",
     company_name: "Wise Systems Inc",
-    icon: starbucks,
-    iconBg: "#383E56",
+    icon: mobile,
+    iconBg: "#E6DEDD",
     date: "Sept 2022 - Dec 2022",
     points: [
       "Designed and constructed user registration and login flow pages, allowing new users to create accounts and enjoy the company’s logistic management and route optimization services. Alleviated the need for developers to create user profiles manually and greatly improved user experience.",
@@ -133,7 +133,7 @@ const experiences = [
   {
     title: "Fullstack Developer",
     company_name: "OpenText Inc",
-    icon: tesla,
+    icon: web,
     iconBg: "#E6DEDD",
     date: "Sept 2021 - Apr 2022",
     points: [
@@ -148,8 +148,8 @@ const experiences = [
   {
     title: "Fullstack Developer",
     company_name: "Cognizantly Inc",
-    icon: shopify,
-    iconBg: "#383E56",
+    icon: backend,
+    iconBg: "#E6DEDD",
     date: "Jan 2021 - Apr 2021",
     points: [
       "Independently designed and constructed the company’s web app frontend using Javascript (React), allowing users to view their investment behavioural patterns and present them with a detailed assessment of how they may alter their strategies to become better traders in a professional and clear manner.",
@@ -161,7 +161,7 @@ const experiences = [
   {
     title: "Full stack Developer",
     company_name: "CI Financial",
-    icon: meta,
+    icon: web,
     iconBg: "#E6DEDD",
     date: "May 2020 - Aug 2020",
     points: [
@@ -173,7 +173,8 @@ const experiences = [
   {
     title: "Software Engineer",
     company_name: "Corefire Technology Ltd",
-    icon: meta,
+    icon: creator,
+    // iconBg: "#383E56",
     iconBg: "#E6DEDD",
     date: "May 2019 - Aug 2019",
     points: [
