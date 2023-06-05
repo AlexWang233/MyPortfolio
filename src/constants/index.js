@@ -19,6 +19,7 @@ import {
   starbucks,
   tesla,
   shopify,
+  leetcode,
   carrent,
   jobit,
   tripguide,
@@ -214,66 +215,28 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Github Solutions",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This repository showcases my solutions to various LeetCode problems, covering a diverse range of topics such as Python algorithms, data structures, JavaScript implementations, and SQL queries. Each solution is carefully crafted to provide efficient and optimized code that tackles these coding challenges.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "DSA",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "MySQL",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
+    image: leetcode,
     source_code_link: "https://github.com/",
   },
 ];
