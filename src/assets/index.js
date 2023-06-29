@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import downArrow from "./downArrow.png";
+import leetcode from "./leetcode.png";
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   jobit,
   tripguide,
   downArrow,
+  leetcode,
 };
