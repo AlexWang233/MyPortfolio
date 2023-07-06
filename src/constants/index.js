@@ -237,7 +237,7 @@ const projects = [
       },
     ],
     image: leetcode,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AlexWang233/LeetCode",
   },
 ];
 
