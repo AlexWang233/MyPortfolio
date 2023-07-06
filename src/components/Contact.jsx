@@ -24,18 +24,33 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send(
-      emailjsConfig.SERVICE_ID,
-      emailjsConfig.TEMPLATE_ID,
-      {
-        from_name: form.name,
-        to_name: "Alex",
-        from_email: form.email,
-        to_email: emailjsConfig.MY_EMAIL,
-        message: form.message,
-      },
-      emailjsConfig.PUBLIC_KEY
-    );
+    emailjs
+      .send(
+        emailjsConfig.SERVICE_ID,
+        emailjsConfig.TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: "Alex",
+          from_email: form.email,
+          to_email: emailjsConfig.MY_EMAIL,
+          message: form.message,
+        },
+        emailjsConfig.PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you~ I will get back to you at my earliest convenience."
+          );
+          setForm({ name: "", email: "", message: "" });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
+          alert("Something went wrong, email not sent :(");
+        }
+      );
   };
 
   return (
