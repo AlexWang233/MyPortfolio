@@ -43,7 +43,7 @@ const Contact = () => {
           alert(
             "Thank you~ I will get back to you at my earliest convenience."
           );
-          setForm({ name: "", email: "", message: "" });
+          setForm({ first_name: "", last_name: "", email: "", message: "" });
         },
         (error) => {
           setLoading(false);
